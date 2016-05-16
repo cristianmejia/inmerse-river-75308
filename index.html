@@ -1,10 +1,55 @@
+<!DOCTYPE HTML>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Webpack heroku</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   </head>
   <body>
+	<header>
+		<nav class="purple darken-4">
+			<div class="container">
+				<div class="nav-wrapper row">
+					<a href="#!" class="brand-logo">Web App Example</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#">Register</a></li>
+						<li><a class="waves-effect waves-light btn purple accent-4">Login</a></li>
+						<li><a class="waves-effect waves-light btn-large purple accent-4">Subscribe</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
     <div id="main"></div>
+	<footer class="page-footer purple darken-1">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Cristian Mejia</h5>
+					<p class="grey-text text-lighten-4">I'm a programmer lost in the jungle; learning new things about life and looking for a home at the end of the world.</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Links</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" rel="nofollow" target="_blank" href="https://about.me/cristian.mejia">About.me</a></li>
+						<li><a class="grey-text text-lighten-3" rel="nofollow" target="_blank" href="https://www.twitter.com/CrisMedinaPV"><i class="fa fa-twitter"></i>@CrisMedinaPV</a></li>
+						<li><a class="grey-text text-lighten-3" rel="nofollow" target="_blank" href="https://www.facebook.com/cristian.alberto.mejia.medina"><i class="fa fa-facebook"></i> Facebook</a></li>
+						<li><a class="grey-text text-lighten-3" rel="nofollow" target="_blank" href="http://instagram.com/cristianmejia"><i class="fa fa-instagram"></i> Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© <span id="year">2011</span> WebAppExample 
+				<span id="counter">Loading time counter</span>
+				<span id="emailme">Email me!</span>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <script type="text/javascript" src="/public/bundle.js"></script>
   </body>
 </html>
